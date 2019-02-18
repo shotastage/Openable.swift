@@ -10,8 +10,12 @@ import Foundation
 
 open class Openable {
     
-    init(app: String) {
-        
+    private var apps: [Menu]?
+    
+    private var category: Category?
+    
+    init(app: Menu..., category: Category) {
+        self.apps = app
     }
     
     public func open() {

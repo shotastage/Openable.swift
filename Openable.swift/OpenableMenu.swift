@@ -31,6 +31,6 @@ open class Menu {
 }
 
 public struct OpenableMenu {
-    
-    public var chrome = Menu(name: "Chrome", scheme: "", category: .browser)
+    public var chrome = Menu(name: "Chrome", scheme: "googlechrome://", category: .browser)
+    public var safari = Menu(name: "Safari", scheme: "", category: .browser)
 }
