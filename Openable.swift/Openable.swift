@@ -10,6 +10,10 @@ import Foundation
 
 open class Openable {
     
+    init(app: String) {
+        
+    }
+    
     public func open() {
         
     }
